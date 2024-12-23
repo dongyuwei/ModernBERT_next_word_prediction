@@ -1,9 +1,11 @@
 # Test ModernBERT
+```bash
+python3 -m venv venv
+venv/bin/pip3 install -r requirements.txt
+HF_ENDPOINT=https://hf-mirror.com venv/bin/python3 app.py
+```bash
 
-## Install huggingface/transformers
-python3 -m pip install git+https://github.com/huggingface/transformers.git
-
-## Install pytorch
+## Install pytorch manually if failed via requirements.txt.
 python3 -m pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 
 ## Test
