@@ -24,3 +24,4 @@ python3 -m pip install --pre torch torchvision torchaudio --index-url https://do
 - HF_ENDPOINT=https://hf-mirror.com venv/bin/python3 test.py
 - HF_ENDPOINT=https://hf-mirror.com venv/bin/python3 pipeline-test.py
 
+## tested with Python 3.13.1 on M1 Mac
